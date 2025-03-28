@@ -1,8 +1,8 @@
 Algoritmo AreaCirculo
 	Definir radio, area, numeropi  Como Real
-    numeropi <- 3.14
-    Escribir "Ingrese el radio del círculo: "
+    numeropi = 3.14
+    Escribir "Ingrese el radio del cÃ­rculo: "
     Leer radio
-    area <- pi * radio^2
-    Escribir "El área del círculo es: ", area
+    area = pi * radio^2
+    Escribir "El Ã¡rea del cÃ­rculo es: ", area
 FinAlgoritmo
