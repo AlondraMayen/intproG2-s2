@@ -1,12 +1,12 @@
 Algoritmo area_ladrillos
 	Definir ancho, largo, area Como Real
     Definir ladrillos_necesarios Como Entero
-    Escribir "Ingrese el ancho del área (en metros): "
+    Escribir "Ingrese el ancho del Ã¡rea (en metros): "
     Leer ancho
-    Escribir "Ingrese el largo del área (en metros): "
+    Escribir "Ingrese el largo del Ã¡rea (en metros): "
     Leer largo
-    area <- ancho * largo
-    ladrillos_necesarios <- area * 20
-    Escribir "El área total es: ", area, " m²"
-    Escribir "Se necesitan ", ladrillos_necesarios, " ladrillos para cubrir el área."
+    area = ancho * largo
+    ladrillos_necesarios = area * 20
+    Escribir "El Ã¡rea total es: ", area, " mÂ²"
+    Escribir "Se necesitan ", ladrillos_necesarios, " ladrillos para cubrir el Ã¡rea."
 FinAlgoritmo
