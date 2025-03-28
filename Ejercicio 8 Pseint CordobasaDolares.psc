@@ -1,9 +1,9 @@
 Algoritmo CordobasaDolares
 	Definir cordobas, tipo_cambio, dolares Como Real
-    Escribir "Ingrese la cantidad en c髍dobas: "
+    Escribir "Ingrese la cantidad en c贸rdobas: "
     Leer cordobas
-    Escribir "Ingrese el tipo de cambio (c髍dobas a d髄ares): "
+    Escribir "Ingrese el tipo de cambio (c贸rdobas a d贸lares): "
     Leer tipo_cambio
-    dolares <- cordobas / tipo_cambio
-    Escribir "La cantidad en d髄ares es: ", dolares
+    dolares = cordobas / tipo_cambio
+    Escribir "La cantidad en d贸lares es: ", dolares
 FinAlgoritmo
