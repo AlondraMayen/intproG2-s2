@@ -10,6 +10,6 @@ Algoritmo PromedioNotas
     Leer nota4
     Escribir "Ingrese la nota de la quinta asignatura: "
     Leer nota5
-    promedio <- (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+    promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
     Escribir "El promedio del estudiante es: ", promedio
 FinAlgoritmo
