@@ -1,12 +1,12 @@
 Algoritmo CalculoDeuda
 	Definir monto_prestamo, tasa_interes, monto_final Como Real
-    Definir años Como Entero
-    Escribir "Ingrese el monto del préstamo: "
+    Definir aÃ±os Como Entero
+    Escribir "Ingrese el monto del prÃ©stamo: "
     Leer monto_prestamo
-    Escribir "Ingrese la tasa de interés anual (en %): "
+    Escribir "Ingrese la tasa de interÃ©s anual (en %): "
     Leer tasa_interes
-    Escribir "Ingrese el número de años: "
-    Leer años
-    monto_final <- monto_prestamo * (1 + (tasa_interes / 100))^años
-    Escribir "El monto total a pagar después de ", años, " años es: ", monto_final
+    Escribir "Ingrese el nÃºmero de aÃ±os: "
+    Leer aÃ±os
+    monto_final = monto_prestamo * (1 + (tasa_interes / 100))^aÃ±os
+    Escribir "El monto total a pagar despuÃ©s de ", aÃ±os, " aÃ±os es: ", monto_final
 FinAlgoritmo
